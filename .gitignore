@@ -1,0 +1,6 @@
+*.xcuserstate
+*.DS_Store
+xschememanagement.plist
+xcuserdata
+x.xcuserdatad
+UserInterfaceState.xcuserstate
