@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		4A8C23041B532C4700B5CDD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C23031B532C4700B5CDD5 /* main.m */; };
 		4A8C23071B532C4700B5CDD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C23061B532C4700B5CDD5 /* AppDelegate.m */; };
-		4A8C230A1B532C4700B5CDD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C23091B532C4700B5CDD5 /* ViewController.m */; };
 		4A8C230D1B532C4700B5CDD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8C230B1B532C4700B5CDD5 /* Main.storyboard */; };
 		4A8C230F1B532C4700B5CDD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8C230E1B532C4700B5CDD5 /* Images.xcassets */; };
 		4A8C23121B532C4700B5CDD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8C23101B532C4700B5CDD5 /* LaunchScreen.xib */; };
 		4A8C231E1B532C4700B5CDD5 /* NerdfeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C231D1B532C4700B5CDD5 /* NerdfeedTests.m */; };
+		4A8C23291B532E4900B5CDD5 /* CoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C23281B532E4900B5CDD5 /* CoursesViewController.m */; };
+		4A8C232C1B53529800B5CDD5 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C232B1B53529800B5CDD5 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		4A8C23031B532C4700B5CDD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A8C23051B532C4700B5CDD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A8C23061B532C4700B5CDD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A8C23081B532C4700B5CDD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A8C23091B532C4700B5CDD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4A8C230C1B532C4700B5CDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A8C230E1B532C4700B5CDD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A8C23111B532C4700B5CDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4A8C23171B532C4700B5CDD5 /* NerdfeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NerdfeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8C231C1B532C4700B5CDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A8C231D1B532C4700B5CDD5 /* NerdfeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdfeedTests.m; sourceTree = "<group>"; };
+		4A8C23271B532E4900B5CDD5 /* CoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursesViewController.h; sourceTree = "<group>"; };
+		4A8C23281B532E4900B5CDD5 /* CoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursesViewController.m; sourceTree = "<group>"; };
+		4A8C232A1B53529800B5CDD5 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		4A8C232B1B53529800B5CDD5 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,10 @@
 		4A8C22F51B532C4700B5CDD5 = {
 			isa = PBXGroup;
 			children = (
+				4A8C23271B532E4900B5CDD5 /* CoursesViewController.h */,
+				4A8C23281B532E4900B5CDD5 /* CoursesViewController.m */,
+				4A8C232A1B53529800B5CDD5 /* WebViewController.h */,
+				4A8C232B1B53529800B5CDD5 /* WebViewController.m */,
 				4A8C23001B532C4700B5CDD5 /* Nerdfeed */,
 				4A8C231A1B532C4700B5CDD5 /* NerdfeedTests */,
 				4A8C22FF1B532C4700B5CDD5 /* Products */,
@@ -83,8 +90,6 @@
 			children = (
 				4A8C23051B532C4700B5CDD5 /* AppDelegate.h */,
 				4A8C23061B532C4700B5CDD5 /* AppDelegate.m */,
-				4A8C23081B532C4700B5CDD5 /* ViewController.h */,
-				4A8C23091B532C4700B5CDD5 /* ViewController.m */,
 				4A8C230B1B532C4700B5CDD5 /* Main.storyboard */,
 				4A8C230E1B532C4700B5CDD5 /* Images.xcassets */,
 				4A8C23101B532C4700B5CDD5 /* LaunchScreen.xib */,
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A8C230A1B532C4700B5CDD5 /* ViewController.m in Sources */,
 				4A8C23071B532C4700B5CDD5 /* AppDelegate.m in Sources */,
+				4A8C23291B532E4900B5CDD5 /* CoursesViewController.m in Sources */,
 				4A8C23041B532C4700B5CDD5 /* main.m in Sources */,
+				4A8C232C1B53529800B5CDD5 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
